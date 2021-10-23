@@ -105,6 +105,7 @@ export const ScrollDown = styled(LinkScroll)`
   animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
     justify-content: center;
+    margin-top: 2rem;
   }
 `;
 
