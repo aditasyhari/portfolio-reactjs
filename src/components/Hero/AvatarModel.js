@@ -16,6 +16,7 @@ export const AvatarModel = () => {
           fov: 6,
         }}
         className="avatar-full"
+        style={{ marginLeft: "20px" }}
       >
         <OrbitControls
           enableZoom={false}
