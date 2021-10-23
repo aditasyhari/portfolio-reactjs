@@ -9,7 +9,7 @@ import Model from "../Model/Avatar-full";
 export const AvatarModel = () => {
 
   return (
-    <div style={{ position: "absolute", width: "100%", height: "95vh" }}>
+    <div style={{ position: "absolute", width: "auto", height: "95vh" }}>
       <Canvas
         camera={{
           position: [10, 5, 15],
