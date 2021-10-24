@@ -28,7 +28,7 @@ export const AvatarModel = () => {
         <ambientLight intensity={0.3}/>
         {/* <spotLight intensity={0.3} /> */}
         <pointLight position={[10, 10, 10]} intensity={1} />
-        <Suspense fallback={<h3 style={{color: "white"}}>Loading Avatar...</h3>}>
+        <Suspense fallback={null}>
           <Model position={[0, -0.9, 0]} />
         </Suspense>
       </Canvas>
